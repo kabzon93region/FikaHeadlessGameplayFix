@@ -2,69 +2,57 @@
 
 
 
-
-
-
-
 **GitHub:** [kabzon93region](https://github.com/kabzon93region)
 
-**Deployment:** `(headless_host)`  
+**Клиентский мод для SPT 4 + Fika.** Исправление LocationId, таймаутов и gameplay-проблем на Fika Headless.
 
 
 
-**Version:** `1.0.3`  
+## Возможности
 
 
 
-**Platform:** EFT 16.9 / SPT 4.0.13 / Fika 2.3.x
+- Корректная передача LocationId между хостом и клиентами
+
+- Исправление таймаутов при синхронизации
+
+- Gameplay-фиксы для стабильной работы на headless
 
 
 
+## Установка
 
 
 
-
-LocationId, таймауты и gameplay-фиксы на Fika Headless.
-
+1. Скопировать `FikaHeadlessGameplayFix.dll` в `BepInEx/plugins/` на headless-хосте
 
 
 
+## Требования
 
 
 
-## Install
+- **Fika** headless-coop
+
+- **SPT**: 4.0.x
+
+- **BepInEx**: 5.4.x
 
 
 
+## Примечания
 
 
 
-
-1. Download release zip from GitHub Releases.
-
-
-
-2. Extract into Escape from Tarkov game root (`EscapeFromTarkov.exe`).
+- `HostBotInitLocationFixPatch` убран в 1.0.3: ломал SPT CustomAI на Sandbox
 
 
 
-3. See `INSTALL.md` in release folder (not inside zip).
+## Совместимость
 
 
 
-
-
-
-
-## Changelog
-
-
-
-
-
-
-
-See [CHANGELOG.md](CHANGELOG.md).
+- `headless_host` — только на headless-хосте
 
 
 
