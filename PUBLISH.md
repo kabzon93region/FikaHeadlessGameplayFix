@@ -31,10 +31,10 @@ python CURSORAIMODING/tools/publish/publish_github_release.py FikaHeadlessGamepl
 
 Прикрепить zip (только игровые файлы, без INSTALL.md):
 
-`\\Servant\data\Games\EscapeFromTarkov4\CURSORAIMODING\releases\FikaHeadlessGameplayFix_(headless_host)_v1.0.3_2026-06-26.zip`
+`\\Servant\data\Games\EscapeFromTarkov4\CURSORAIMODING\releases\FikaHeadlessGameplayFix_(headless_host)_v1.0.3_2026-06-27.zip`
 
 ```powershell
-gh release create v1.0.3 "\\Servant\data\Games\EscapeFromTarkov4\CURSORAIMODING\releases\FikaHeadlessGameplayFix_(headless_host)_v1.0.3_2026-06-26.zip" ^
+gh release create v1.0.3 "\\Servant\data\Games\EscapeFromTarkov4\CURSORAIMODING\releases\FikaHeadlessGameplayFix_(headless_host)_v1.0.3_2026-06-27.zip" ^
   --title "Fika Headless Gameplay Fix v1.0.3" ^
   --notes-file CHANGELOG.md
 ```
